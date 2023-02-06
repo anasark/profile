@@ -16,32 +16,32 @@ export default {
       {
         "title": "Design & Build websites",
         "description": "Designing and building websites and web applications.",
-        "icon": "/src/assets/images/website.svg"
+        "icon": "/images/website.svg"
       },
       {
         "title": "Write & test code",
         "description": "Writing and testing code, making sure it runs as expected",
-        "icon": "/src/assets/images/write.svg"
+        "icon": "/images/write.svg"
       },
       {
         "title": "Integrate third-party",
         "description": "Integrating websites with third-party, databases and other",
-        "icon": "/src/assets/images/integrate.svg"
+        "icon": "/images/integrate.svg"
       },
       {
         "title": "Debug & troubleshoot",
         "description": "Debugging and troubleshooting issues with web applications.",
-        "icon": "/src/assets/images/debug.svg"
+        "icon": "/images/debug.svg"
       },
       {
         "title": "Maintenance & update",
         "description": "Maintaining and updating existing websites and web applications.",
-        "icon": "/src/assets/images/maintenance.svg"
+        "icon": "/images/maintenance.svg"
       },
       {
         "title": "Optimize website",
         "description": "Optimizing websites for search engines and improving user",
-        "icon": "/src/assets/images/optimize.svg"
+        "icon": "/images/optimize.svg"
       },
     ]
 };

@@ -20,7 +20,7 @@ export default [
   {
     link: "https://medium.com/@anasark/laraver-blade-filter-a4f8f035b840",
     title: "Laraver Blade Filter",
-    image: "/src/assets/images/blogs/blade-filter.png",
+    image: "/images/blogs/blade-filter.png",
     date: "Aug 24, 2021"
   }
 ];

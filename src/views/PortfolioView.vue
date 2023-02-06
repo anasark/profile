@@ -20,7 +20,7 @@
               <div class="overflow-hidden rounded-lg">
                 <img
                   alt="{{ porto.name }}"
-                  :src="'/src/assets/images/portfolio/' + porto.code + '/1.jpeg'"
+                  :src="'/images/portfolio/' + porto.code + '/1.jpeg'"
                   width="300"
                   height="300"
                   decoding="async"
@@ -49,7 +49,7 @@
               <div class="overflow-hidden rounded-lg">
                 <img
                   alt="{{ porto.name }}"
-                  :src="'/src/assets/images/portfolio/' + porto.code + '/1.jpeg'"
+                  :src="'/images/portfolio/' + porto.code + '/1.jpeg'"
                   width="300"
                   height="300"
                   decoding="async"

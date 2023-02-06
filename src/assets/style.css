@@ -67,10 +67,10 @@ html {
   }
 }
 .bg-image {
-  background-image: url("images/bg-image.webp");
+  background-image: url("/images/bg-image.webp");
 }
 .dark .bg-image-dark {
-  background-image: url("images/bg-image-dark.webp");
+  background-image: url("/images/bg-image-dark.webp");
 }
 .after-effect {
   --tw-gradient-from: #fa5252;
