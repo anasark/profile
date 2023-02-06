@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <g id="coding-2" data-name="coding">
+        <path
+            d="M5,48H9V17a2.006,2.006,0,0,1,2-2H29a2.006,2.006,0,0,1,2,2V48H59a2.006,2.006,0,0,0,2-2V11H3V46A2.006,2.006,0,0,0,5,48Z"
+            style="fill:#177e89" id="id_101"></path>
+        <path d="M40.293,30.707l1.414-1.414L36.414,24l5.293-5.293-1.414-1.414-6,6a1,1,0,0,0,0,1.414Z"
+            style="fill:#db3a34" id="id_102"></path>
+        <path d="M51.707,30.707l6-6a1,1,0,0,0,0-1.414l-6-6-1.414,1.414L55.586,24l-5.293,5.293Z" style="fill:#db3a34"
+            id="id_103"></path>
+        <path d="M21,43h3V41H18V39h1V37H14V34H12v4a1,1,0,0,0,1,1h3v3a1,1,0,0,0,1,1h2v5a1,1,0,0,0,1,1h8V47H21Z"
+            style="fill:#db3a34" id="id_104"></path>
+        <path d="M21,27h3V25H18V23h1V21H14V18H12v4a1,1,0,0,0,1,1h3v3a1,1,0,0,0,1,1h2v5a1,1,0,0,0,1,1h8V31H21Z"
+            style="fill:#db3a34" id="id_105"></path>
+        <path d="M17,54h2V52H14V49H12v4a1,1,0,0,0,1,1h2v3a1,1,0,0,0,1,1H28V56H17Z" style="fill:#db3a34" id="id_106">
+        </path>
+        <path
+            d="M61,2H3A1,1,0,0,0,2,3V46a3,3,0,0,0,3,3H8V59a3,3,0,0,0,3,3H29a3,3,0,0,0,3-3V49H59a3,3,0,0,0,3-3V3A1,1,0,0,0,61,2ZM30,59a1,1,0,0,1-1,1H11a1,1,0,0,1-1-1V17a1,1,0,0,1,1-1H29a1,1,0,0,1,1,1ZM60,46a1,1,0,0,1-1,1H32V17a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3V47H5a1,1,0,0,1-1-1V12H60Zm0-36H4V4H60Z"
+            style="fill:#084c61" id="id_107"></path>
+        <rect x="34" y="43" width="20" height="2" style="fill:#084c61" id="id_108"></rect>
+        <rect x="56" y="43" width="2" height="2" style="fill:#084c61" id="id_109"></rect>
+        <rect x="34" y="39" width="2" height="2" style="fill:#084c61" id="id_110"></rect>
+        <rect x="38" y="39" width="20" height="2" style="fill:#084c61" id="id_111"></rect>
+        <rect x="34" y="35" width="20" height="2" style="fill:#084c61" id="id_112"></rect>
+        <rect x="56" y="35" width="2" height="2" style="fill:#084c61" id="id_113"></rect>
+        <rect x="6" y="6" width="2" height="2" style="fill:#084c61" id="id_114"></rect>
+        <rect x="10" y="6" width="2" height="2" style="fill:#084c61" id="id_115"></rect>
+        <rect x="14" y="6" width="2" height="2" style="fill:#084c61" id="id_116"></rect>
+        <rect x="37.456" y="23" width="17.088" height="2" transform="translate(7.38 58.649) rotate(-69.451)"
+            style="fill:#db3a34" id="id_117"></rect>
+    </g>
+</svg>
