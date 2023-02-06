@@ -17,7 +17,7 @@
         >
         {{ profile.profession }}
         </h3>
-        <div class="p-7 rounded-2xl bg-[#F3F6F6] dark:bg-[#1D1D1D]">
+        <div class="p-4 lg:p-7 rounded-2xl bg-[#F3F6F6] dark:bg-[#1D1D1D]">
           <div
             class="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] pb-2.5"
           >
