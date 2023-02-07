@@ -1,6 +1,6 @@
 # profile
 
-This template should help get you started developing with Vue 3 in Vite.
+This is my profile code, preview https://me.opoikii.com/
 
 ## Recommended IDE Setup
 
