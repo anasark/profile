@@ -1,6 +1,6 @@
 <script setup>
-import Header from "./views/ThemeOne/header.vue";
-import Content from "./views/ThemeOne/Content.vue";
+import Header from "@/views/ThemeOne/Header.vue";
+import Content from "@/views/ThemeOne/Content.vue";
 </script>
 
 <template>
