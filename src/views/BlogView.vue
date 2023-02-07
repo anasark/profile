@@ -3,7 +3,7 @@
     <div class="container px-4 sm:px-5 md:px-10 lg:px-[60px]">
       <div class="lg:py-12">
         <h2 class="after-effect after:left-32 mt-12 lg:mt-0">Blogs</h2>
-        <div class="my-masonry-grid">
+        <div class="my-masonry-grid mt-[30px]">
           <div class="my-masonry-grid_column">
             <div
               v-for="blog in blogLeft"
