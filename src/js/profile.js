@@ -14,7 +14,7 @@ export default {
     ],
     points: [
       {
-        "title": "Design & Build websites",
+        "title": "Design & build websites",
         "description": "Designing and building websites and web applications.",
         "icon": "/images/website.svg"
       },

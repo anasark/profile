@@ -8,7 +8,7 @@ export default {
     {
       date: "2010 - 2013",
       school: "MAN 1 Lamongan",
-      location: "Malang, Jawa Timur"
+      location: "Lamongan, Jawa Timur"
     }
   ],
   experience: [
