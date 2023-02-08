@@ -39,7 +39,7 @@
                   class="dark:text-white flex items-center text-[15px] sm:text-lg"
                 >
                   <IconFramework />
-                  Freamework :&nbsp;<span class="font-medium">{{
+                  Framework :&nbsp;<span class="font-medium">{{
                     framework
                   }}</span>
                 </p>
