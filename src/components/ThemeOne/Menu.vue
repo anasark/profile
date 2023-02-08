@@ -53,10 +53,10 @@
 </template>
 
 <script>
-import IconHome from "../icons/menu/IconHome.vue";
-import IconResume from "../icons/menu/IconResume.vue";
-import IconPortfolio from "../icons/menu/IconPortfolio.vue";
-import IconBlog from "../icons/menu/IconBlog.vue";
+import IconHome from "./icons/menu/IconHome.vue";
+import IconResume from "./icons/menu/IconResume.vue";
+import IconPortfolio from "./icons/menu/IconPortfolio.vue";
+import IconBlog from "./icons/menu/IconBlog.vue";
 
 export default {
   name: "Menu",

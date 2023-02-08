@@ -1,5 +1,10 @@
 <template>
-  <aos-vue animation="fade-in" :once="true" :offset="-400" style="padding-bottom: 1px;">
+  <aos-vue
+    animation="fade-in"
+    :once="true"
+    :offset="-400"
+    style="padding-bottom: 1px"
+  >
     <div class="container mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
       <div class="lg:py-12">
         <h2 class="after-effect after:left-48 mt-12 lg:mt-0">Portfolio</h2>
@@ -13,12 +18,13 @@
         <div class="my-masonry-grid">
           <div class="my-masonry-grid_column">
             <div
-              v-for="(porto) in portoLeft"
-              class="rounded-lg p-6 dark:border-[2px] border-[#212425] "
+              v-for="porto in portoLeft"
+              class="rounded-lg p-6 dark:border-[2px] border-[#212425]"
               :class="`${getColor()} dark:bg-transparent`"
             >
               <div class="overflow-hidden rounded-lg">
                 <img
+                  @click="detailPorto(porto)"
                   alt="{{ porto.name }}"
                   :src="'/images/portfolio/' + porto.code + '/1.jpeg'"
                   width="300"
@@ -34,6 +40,7 @@
                 >{{ porto.type }}</span
               >
               <h2
+                @click="detailPorto(porto)"
                 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2"
               >
                 {{ porto.name }}
@@ -42,12 +49,13 @@
           </div>
           <div class="my-masonry-grid_column">
             <div
-              v-for="(porto) in portoRight"
+              v-for="porto in portoRight"
               class="rounded-lg p-6 dark:border-[2px] border-[#212425]"
               :class="`${getColor()} dark:bg-transparent`"
             >
               <div class="overflow-hidden rounded-lg">
                 <img
+                  @click="detailPorto(porto)"
                   alt="{{ porto.name }}"
                   :src="'/images/portfolio/' + porto.code + '/1.jpeg'"
                   width="300"
@@ -63,6 +71,7 @@
                 >{{ porto.type }}</span
               >
               <h2
+                @click="detailPorto(porto)"
                 class="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2"
               >
                 {{ porto.name }}
@@ -73,13 +82,26 @@
       </div>
     </div>
   </aos-vue>
+
+  <modal 
+    v-if="project_name != null"
+    v-bind:project_name="project_name"
+    v-bind:project="project"
+    v-bind:framework="framework"
+    v-bind:name="name"
+    v-bind:link="link"
+    v-bind:code="code"
+    @close-modal="closePorto"
+  />
 </template>
 
 <script>
+import modal from "@/components/ThemeOne/PortfolioModal.vue";
 import portfolio from "@/js/portfolio";
 import colors from "@/js/color";
 
 export default {
+  components: { modal },
   computed: {
     portoLeft() {
       return this.portfolio.filter((v, i) => i % 2 === 0);
@@ -89,28 +111,50 @@ export default {
     },
     portfolio() {
       return this.filtereKey !== null
-        ? portfolio.filter((v, i) => v.type === this.filtereKey )
+        ? portfolio.filter((v, i) => v.type === this.filtereKey)
         : portfolio;
-    }
+    },
   },
   data() {
     return {
-      filtereKey: null
-    }
+      filtereKey: null,
+      project_name: null,
+      project: null,
+      framework: null,
+      name: null,
+      link: null,
+      code: null,
+    };
   },
   methods: {
     filterPorto(key = null) {
-      this.filtereKey = key
+      this.filtereKey = key;
     },
     getColor() {
-      return colors[Math.floor(Math.random()*colors.length)]
+      return colors[Math.floor(Math.random() * colors.length)];
+    },
+    detailPorto(porto) {
+      this.project_name = porto.type
+      this.project = porto.project
+      this.framework = porto.framework
+      this.name = porto.name
+      this.link = porto.url
+      this.code = porto.code
+    },
+    closePorto() {
+      this.project_name = null
+      this.project = null
+      this.framework = null
+      this.name = null
+      this.link = null
+      this.code = null
     }
-  }
+  },
 };
 </script>
 
 <style scoped>
-  li {
-    cursor: pointer;
-  }
+li {
+  cursor: pointer;
+}
 </style>

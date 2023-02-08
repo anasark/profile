@@ -4,6 +4,8 @@ export default [
     code: "ratson",
     url: "https://inventory.ratson.com",
     type: "Laravel",
+    project: "Web Application",
+    framework: "Laravel, Blade",
     color: '#fff0f0'
   },
   {
@@ -11,6 +13,8 @@ export default [
     code: "point",
     url: "https://point.red/",
     type: "Laravel",
+    project: "Web Application",
+    framework: "Laravel, VueJs",
     color: '#fff3fc'
   },
   {
@@ -18,6 +22,8 @@ export default [
     code: "vhs",
     url: "https://dmentorcollege.com",
     type: "Laravel",
+    project: "Web Application",
+    framework: "Laravel, Blade",
     color: '#e9faff'
   },
   {
@@ -25,6 +31,8 @@ export default [
     code: "upt-pbh",
     url: "http://pbh.pertanian.jatimprov.go.id/",
     type: "WordPress",
+    project: "Web Profile",
+    framework: "WordPress",
     color: '#fffae9'
   },
   {
@@ -32,6 +40,8 @@ export default [
     code: "sanko",
     url: "https://isolasi.co.id/",
     type: "WordPress",
+    project: "Web Profile",
+    framework: "WordPress",
     color: '#f4f4ff'
   },
   {
@@ -39,6 +49,8 @@ export default [
     code: "souvenir",
     url: "https://jualsouvenirkatolik.com/",
     type: "WordPress",
+    project: "Web Profile",
+    framework: "WordPress",
     color: '#fff0f8'
   },
 ];

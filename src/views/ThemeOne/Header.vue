@@ -1,5 +1,4 @@
 <script setup>
-import { RouterLink } from "vue-router";
 import Menu from "@/components/ThemeOne/Menu.vue";
 </script>
 
