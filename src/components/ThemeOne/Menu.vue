@@ -60,7 +60,8 @@ import IconBlog from "./icons/menu/IconBlog.vue";
 
 export default {
   name: "Menu",
-  props: ["is_mobile"],
+  props: [ 'is_mobile' ],
+  emits: [ 'toggleMenuMobile' ],
   data() {
     return {
       dekstop_menu_class:

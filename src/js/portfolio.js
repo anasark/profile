@@ -14,7 +14,7 @@ export default [
     url: "https://point.red/",
     type: "Laravel",
     project: "Web Application",
-    framework: "Laravel, VueJs",
+    framework: "Laravel, VueJS",
     color: '#fff3fc'
   },
   {
