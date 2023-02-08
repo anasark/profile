@@ -68,13 +68,10 @@ import portfolio from "@/js/portfolio";
 import colors from "@/js/color";
 
 export default {
-  props: [ 'is_mobile' ],
   components: { modal, list },
   computed: {
     portoLeft() {
-      return this.is_mobile
-        ? this.portfolio     
-        : this.portfolio.filter((v, i) => i % 2 === 0);
+      return this.portfolio.filter((v, i) => i % 2 === 0);
     },
     portoRight() {
       return this.portfolio.filter((v, i) => i % 2 === 1);
