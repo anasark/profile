@@ -1,0 +1,66 @@
+{
+  "education": [
+    {
+      "date": "2013 - 2018",
+      "school": "kampus1",
+      "location": "Malang, Jawa Timur"
+    },
+    {
+      "date": "2010 - 2013",
+      "school": "sekolah",
+      "location": "sby, Jawa Timur"
+    }
+  ],
+  "experience": [
+    {
+      "date": "2019 - current",
+      "company": "kecil",
+      "position": "Full Stack Developer"
+    },
+    {
+      "date": "2018 - 2019",
+      "company": "lebih kecil",
+      "position": "Web Developer"
+    }
+  ],
+  "skill": [
+    {
+      "name": "PHP",
+      "percent": "95"
+    },
+    {
+      "name": "Javascript",
+      "percent": "93"
+    },
+    {
+      "name": "SQL",
+      "percent": "92"
+    },
+    {
+      "name": "HTML",
+      "percent": "95"
+    },
+    {
+      "name": "CSS",
+      "percent": "95"
+    }
+  ],
+  "knowledge": [
+    "Laravel",
+    "PHPUnit",
+    "PM2",
+    "Rest",
+    "VueJS",
+    "JQuery",
+    "SASS",
+    "Server",
+    "cPanel",
+    "Docker",
+    "Github",
+    "NoSQL",
+    "Google Cloud Platform",
+    "Kibana",
+    "Elasticsearch",
+    "Microservices"
+  ]
+}

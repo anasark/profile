@@ -2,7 +2,6 @@ export default {
     name: "Anas Abdur Rohim",
     profession: "Web Developer",
     email: "anas.abdrohim@gmail.com",
-    number: "+6282245861314",
     location: "Yogyakarta, Indonesia",
     linkedin: {
       "link": "https://www.linkedin.com/in/anasabdur/",
