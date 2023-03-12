@@ -138,15 +138,15 @@
 </template>
 
 <script>
-import resume from "@/js/resume";
 import color from "@/js/color";
 import colors from "@/js/color-strong";
+import { mapGetters } from "vuex";
 
 export default {
   computed: {
-    resume() {
-      return resume;
-    }
+    ...mapGetters({
+      resume: "getResume",
+    })
   },
   methods: {
     getColor() {
@@ -156,6 +156,11 @@ export default {
       return colors[Math.floor(Math.random()*colors.length)]
         .replace('bg-[', '')
         .replace(']', '')
+    }
+  },
+  mounted() {
+    if (Object.keys(this.resume).length <= 0) {
+      this.$store.dispatch("fetchResume");
     }
   }
 }

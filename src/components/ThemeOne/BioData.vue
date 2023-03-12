@@ -39,8 +39,8 @@
               <p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">LinkedIn</p>
               <a
                   class="hover:text-[#FA5252] duration-300 transition"
-                  :href="`${profile.linkedin.link}`"
-                  >{{ profile.linkedin.user }}</a
+                  :href="`${profile.linkedin?.link }`"
+                  >{{ profile.linkedin?.user }}</a
                 >
             </div>
           </div>
@@ -76,17 +76,22 @@
 </template>
 
 <script>
-import profile from "@/js/profile";
 import iconGithub from "./icons/social/IconGithub.vue";
 import iconEmail from "./icons/social/IconEmail.vue";
 import iconLinkedin from "./icons/social/IconLinkedin.vue";
 import iconLocation from "./icons/social/IconLocation.vue";
+import { mapGetters } from "vuex";
 
 export default {
   components: { iconGithub, iconEmail, iconLinkedin, iconLocation },
   computed: {
-    profile() {
-      return profile;
+    ...mapGetters({
+      profile: "getProfile",
+    }),
+  },
+  mounted() {
+    if (Object.keys(this.profile).length <= 0) {
+      this.$store.dispatch("fetchProfile");
     }
   }
 }

@@ -2,24 +2,24 @@
   "education": [
     {
       "date": "2013 - 2018",
-      "school": "kampus1",
+      "school": "UIN Maulana Malik Ibrahim",
       "location": "Malang, Jawa Timur"
     },
     {
       "date": "2010 - 2013",
-      "school": "sekolah",
-      "location": "sby, Jawa Timur"
+      "school": "MAN 1 Lamongan",
+      "location": "Lamongan, Jawa Timur"
     }
   ],
   "experience": [
     {
       "date": "2019 - current",
-      "company": "kecil",
+      "company": "Niagahoster",
       "position": "Full Stack Developer"
     },
     {
       "date": "2018 - 2019",
-      "company": "lebih kecil",
+      "company": "PT. Spora Optima Global",
       "position": "Web Developer"
     }
   ],

@@ -70,30 +70,15 @@
               </div>
             </div>
             <p
+              v-for="desc in description"
               class="dark:text-white text-2line font-normal text-[15px] sm:text-sm"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
-              placeat magnam possimus iusto blanditiis pariatur labore explicabo
-              quo repellat hic dolorum numquam asperiores, voluptatum fugiat
-              reiciendis aspernatur, non, odio aperiam voluptas ex tempora
-              vitae. Dolor, consequatur quidem! Quas magni distinctio dolorum
-              dolore natus, vel numquam accusamus. Nostrum eligendi recusandae
-              qui tempore deserunt!
+              {{ desc }}
             </p>
             <img
+              v-for="img in images"
               alt="blog details image"
-              :src="'/images/portfolio/' + code + '/1.jpeg'"
-              width="620"
-              height="420"
-              decoding="async"
-              data-nimg="1"
-              class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6 border-[1px] border-[##9ca3af]"
-              loading="lazy"
-              style="color: transparent"
-            />
-            <img
-              alt="blog details image"
-              :src="'/images/portfolio/' + code + '/2.jpeg'"
+              :src="img"
               width="620"
               height="420"
               decoding="async"
@@ -119,7 +104,7 @@ import IconLink from "./icons/portfolio/IconLink.vue";
 export default {
   components: { IconClose, IconProject, IconFramework, IconName, IconLink },
   name: 'PortfolioModal',
-  props: ['project_name', 'project', 'framework', 'name', 'link', 'code'],
+  props: ['project_name', 'project', 'framework', 'name', 'link', 'images', 'description'],
   computed: {
     longText() {
         return (this.name.length > 20 || this.link.lenth > 20)

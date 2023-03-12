@@ -3,7 +3,7 @@
     <img
       @click="detailPorto(porto)"
       alt="{{ porto.name }}"
-      :src="'/images/portfolio/' + porto.code + '/1.jpeg'"
+      :src="porto.images[0]"
       width="300"
       height="300"
       decoding="async"
@@ -30,7 +30,7 @@ export default {
   emits: [ 'detailPorto' ],
   methods: {
     detailPorto() {
-        this.$emit("detail-porto");
+      this.$emit("detail-porto");
     }
   }
 };

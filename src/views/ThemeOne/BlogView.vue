@@ -65,16 +65,23 @@
 </template>
 
 <script>
-import blogs from "@/js/blogs";
 import colors from "@/js/color";
+import { mapGetters } from "vuex";
 
 export default {
   computed: {
+    ...mapGetters({
+      blogs: "getBlog",
+    }),
     blogLeft() {
-      return blogs.filter((v, i) => i % 2 === 0);
+      if (this.blogs) {
+        return this.blogs.filter((v, i) => i % 2 === 0);
+      }
     },
     blogRight() {
-      return blogs.filter((v, i) => i % 2 === 1);
+      if (this.blogs) {
+        return this.blogs.filter((v, i) => i % 2 === 1);
+      }
     },
   },
   methods: {
@@ -82,5 +89,10 @@ export default {
       return colors[Math.floor(Math.random() * colors.length)];
     },
   },
+  mounted() {
+    if (Object.keys(this.blogs).length <= 0) {
+      this.$store.dispatch("fetchBlog");
+    }
+  }
 };
 </script>

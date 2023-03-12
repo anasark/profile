@@ -55,20 +55,20 @@ import BioData from "@/components/ThemeOne/BioData.vue";
 </template>
 
 <script>
-import profile from "@/js/profile";
 import colors from "@/js/color";
+import { mapGetters } from "vuex";
 
 export default {
   computed: {
-    profile() {
-      return profile;
-    },
+    ...mapGetters({
+      profile: "getProfile",
+    }),
   },
   methods: {
     getColor() {
       return colors[Math.floor(Math.random()*colors.length)]
     }
-  }
+  },
 };
 </script>
 
