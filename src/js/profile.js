@@ -1,11 +1,11 @@
 export default {
-    name: "Anas Abdur Rohim",
+    name: "Anas Abdur",
     profession: "Web Developer",
     email: "anas.abdrohim@gmail.com",
     location: "Yogyakarta, Indonesia",
     linkedin: {
       "link": "https://www.linkedin.com/in/anasabdur/",
-      "user": "Anas Abdur Rohim"
+      "user": "Anas Abdur"
     },
     github: "anasark",
     summary: [

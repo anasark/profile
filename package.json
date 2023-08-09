@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview --host"
+    "preview": "vite preview --host",
+    "serve": "vite serve --host --port 80"
   },
   "dependencies": {
     "aos-vue": "0.0.5",

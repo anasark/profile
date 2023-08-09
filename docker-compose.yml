@@ -1,0 +1,29 @@
+version: "3.5"
+
+networks:
+  profile:
+    driver: bridge
+
+services:
+  profile:
+    build: .
+    command: npm run serve
+    environment:
+      APPLICATION_ENV: "development"
+      APACHE_SERVER_NAME: "profile"
+      PHP_IDE_CONFIG: "serverName=anasabdur.com"
+      APACHE_LOG_DIR: "/var/log/apache2"
+      XDEBUG_CONFIG: "client_host=host.docker.internal"
+      COMPOSER_MEMORY_LIMIT: -1
+      HOST: 212.1.214.18
+      CHOKIDAR_USEPOLLING: true
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - 84:80
+    stdin_open: true
+    tty: true
+    networks:
+      - profile
+

@@ -42,11 +42,11 @@
           </div>
           <div class="my-masonry-grid_column block lg:hidden">
             <div
-              v-for="porto in portfolio"
+              v-for="port in porto"
               class="rounded-lg p-6 dark:border-[2px] border-[#212425]"
               :class="`${getColor()} dark:bg-transparent`"
             >
-              <list v-bind:porto="porto" @detail-porto="detailPorto(porto)"/>
+              <list v-bind:porto="port" @detail-porto="detailPorto(port)"/>
             </div>
           </div>
         </div>
@@ -115,7 +115,9 @@ export default {
         } else {
           this.porto = this.portfolio
         }
-      }
+      },
+      deep: true,
+      immediate: true,
     },
   },
   data() {
@@ -161,7 +163,7 @@ export default {
     if (Object.keys(this.portfolio).length <= 0) {
       this.$store.dispatch("fetchPortfolio");
     }
-    setTimeout(() => {this.porto = this.portfolio}, 100)
+    setTimeout(() => {this.porto = this.portfolio}, 500)
   }
 };
 </script>

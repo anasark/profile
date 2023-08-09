@@ -17,7 +17,7 @@
         <div
           class="w-full md:w-10/12 flex items-center lg:w-[850px] bg-white dark:bg-[#323232] mx-auto rounded-xl p-4 md:p-8 absolute left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] shadow-lg"
         >
-          <div class="overflow-y-scroll max-h-[80vh] no-scrollbar">
+          <div class="overflow-y-scroll max-h-[80vh] w-full no-scrollbar">
             <IconClose @click="closeModal" />
             <h2
               class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold"
@@ -71,7 +71,7 @@
             </div>
             <p
               v-for="desc in description"
-              class="dark:text-white text-2line font-normal text-[15px] sm:text-sm"
+              class="dark:text-white text-2line font-normal text-[15px] sm:text-sm hidden"
             >
               {{ desc }}
             </p>
