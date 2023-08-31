@@ -77,10 +77,10 @@
     <div
       class="container bg-[#f8fbfb] dark:bg-[#0D0D0D] py-12 px-4 sm:px-5 md:px-10 lg:px-20"
     >
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div class="col-span-1" v-if="resume.skill">
+      <div class="grid grid-cols-1 gap-8">
+        <div class="col-span-1" v-if="!resume.skill">
           <h4 class="text-5xl dark:text-white font-medium mb-6">
-            Working Skills
+            Interesting
           </h4>
           <div class="mb-7" v-for="skill in resume.skill">
             <div class="flex justify-between py-1">
