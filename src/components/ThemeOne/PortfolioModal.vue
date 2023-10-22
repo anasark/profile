@@ -24,8 +24,15 @@
             >
               {{ project_name }} Project
             </h2>
-            <div class="grid grid-cols-1 lg:grid-cols-2 my-6">
+            <div class="grid grid-cols-1 my-6">
               <div class="space-y-2">
+                <p
+                :class="{'small-font': longText}"
+                  class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg"
+                >
+                  <IconName />
+                  Name :&nbsp;<span class="font-medium">{{ name }}</span>
+                </p>
                 <p
                 :class="{'small-font': longText}"
                   class="dark:text-white flex items-center text-[15px] sm:text-lg"
@@ -44,7 +51,7 @@
                   }}</span>
                 </p>
               </div>
-              <div class="space-y-2">
+              <div class="space-y-2 hidden">
                 <p
                 :class="{'small-font': longText}"
                   class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg"
@@ -80,10 +87,9 @@
               alt="blog details image"
               :src="img"
               width="620"
-              height="420"
               decoding="async"
               data-nimg="1"
-              class="w-full md:h-[450px] h-auto object-cover rounded-xl mt-6 border-[1px] border-[##9ca3af]"
+              class="w-full h-auto object-cover rounded-xl mt-6 border-[1px] border-[##9ca3af]"
               loading="lazy"
               style="color: transparent"
             />

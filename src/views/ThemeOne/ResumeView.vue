@@ -77,51 +77,18 @@
     <div
       class="container bg-[#f8fbfb] dark:bg-[#0D0D0D] py-12 px-4 sm:px-5 md:px-10 lg:px-20"
     >
-      <div class="grid grid-cols-1 gap-8">
-        <div class="col-span-1" v-if="!resume.skill">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="col-span-1" v-if="resume.skill">
           <h4 class="text-5xl dark:text-white font-medium mb-6">
-            Interesting
+            Skills
           </h4>
-          <div class="mb-7" v-for="skill in resume.skill">
+          <div class="mb-3" v-for="skill in resume.skill">
             <div class="flex justify-between py-1">
               <span
                 class="text-base text-gray-lite font-semibold dark:text-[#A6A6A6]"
-                >{{ skill.name }}</span
-              ><span
-                class="text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]"
-                >{{ skill.percent }}%</span
-              >
+                >{{ skill }}
+              </span>
             </div>
-            <svg
-              class="rc-progress-line"
-              viewBox="0 0 100 1"
-              preserveAspectRatio="none"
-            >
-              <path
-                class="rc-progress-line-trail"
-                d="M 0.5,0.5
-          L 99.5,0.5"
-                stroke-linecap="round"
-                stroke="#D9D9D9"
-                stroke-width="1"
-                fill-opacity="0"
-              ></path>
-              <path
-                class="rc-progress-line-path"
-                d="M 0.5,0.5
-          L 99.5,0.5"
-                stroke-linecap="round"
-                :stroke="getColors()"
-                stroke-width="1"
-                fill-opacity="0"
-                :style="`
-                  stroke-dasharray: ${skill.percent}px, 100px;
-                  stroke-dashoffset: 0px;
-                  transition: stroke-dashoffset 0.3s ease 0s,
-                    stroke-dasharray 0.3s ease 0s, stroke 0.3s linear 0s, 0.06s;
-                `"
-              ></path>
-            </svg>
           </div>
         </div>
         <div class="col-span-1" v-if="resume.knowledge">

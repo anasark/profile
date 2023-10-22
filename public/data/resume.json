@@ -23,28 +23,7 @@
       "position": "Web Developer"
     }
   ],
-  "skill": [
-    {
-      "name": "PHP",
-      "percent": "95"
-    },
-    {
-      "name": "Javascript",
-      "percent": "93"
-    },
-    {
-      "name": "SQL",
-      "percent": "92"
-    },
-    {
-      "name": "HTML",
-      "percent": "95"
-    },
-    {
-      "name": "CSS",
-      "percent": "95"
-    }
-  ],
+  "skill": ["PHP", "Javascript", "SQL", "Python", "CSS", "HTML"],
   "knowledge": [
     "Laravel",
     "PHPUnit",
