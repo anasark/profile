@@ -8,6 +8,7 @@ services:
   profile:
     build: .
     command: npm run serve
+    restart: always
     environment:
       APPLICATION_ENV: "development"
       APACHE_SERVER_NAME: "profile"
