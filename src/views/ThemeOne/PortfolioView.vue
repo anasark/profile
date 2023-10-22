@@ -26,7 +26,7 @@
             <div
               v-for="porto in portoLeft"
               class="rounded-lg p-6 dark:border-[2px] border-[#212425]"
-              :class="`${getColor()} dark:bg-transparent`"
+              :class="`${getColor()} dark:bg-[#1D1D1D]`"
             >
               <list v-bind:porto="porto" @detail-porto="detailPorto(porto)"/>
             </div>
@@ -35,7 +35,7 @@
             <div
               v-for="porto in portoRight"
               class="rounded-lg p-6 dark:border-[2px] border-[#212425]"
-              :class="`${getColor()} dark:bg-transparent`"
+              :class="`${getColor()} dark:bg-[#1D1D1D]`"
             >
               <list v-bind:porto="porto" @detail-porto="detailPorto(porto)"/>
             </div>
@@ -44,7 +44,7 @@
             <div
               v-for="port in porto"
               class="rounded-lg p-6 dark:border-[2px] border-[#212425]"
-              :class="`${getColor()} dark:bg-transparent`"
+              :class="`${getColor()} dark:bg-[#1D1D1D]`"
             >
               <list v-bind:porto="port" @detail-porto="detailPorto(port)"/>
             </div>

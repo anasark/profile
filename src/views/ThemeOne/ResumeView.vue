@@ -29,7 +29,7 @@
             <div
               v-for="education in resume.education"
               class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
-              :class="`${getColor()} dark:bg-transparent`"
+              :class="`${getColor()} dark:bg-[#1D1D1D]`"
             >
               <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]"
                 >{{ education.date }}</span
@@ -61,7 +61,7 @@
             <div
               v-for="experience in resume.experience"
               class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
-              :class="`${getColor()} dark:bg-transparent`"
+              :class="`${getColor()} dark:bg-[#1D1D1D]`"
             >
               <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]"
                 >{{ experience.date }}</span

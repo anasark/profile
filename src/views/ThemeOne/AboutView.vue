@@ -33,7 +33,7 @@ import BioData from "@/components/ThemeOne/BioData.vue";
         <div
           v-for="point in profile.points"
           class="about-box"
-          :class="`${getColor()} dark:bg-transparent`"
+          :class="`${getColor()} dark:bg-[#1D1D1D]`"
         >
           <img
             class="w-10 h-10 object-contain block"

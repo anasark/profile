@@ -8,7 +8,7 @@
             <div
               v-for="blog in blogLeft"
               class="rounded-lg p-6 dark:border-[2px] border-[#212425] "
-              :class="`${getColor()} dark:bg-transparent`"
+              :class="`${getColor()} dark:bg-[#1D1D1D]`"
             >
             <div class="overflow-hidden rounded-lg">
               <a :href="blog.link" target="_blank">
@@ -35,7 +35,7 @@
             <div
               v-for="blog in blogRight"
               class="rounded-lg p-6 dark:border-[2px] border-[#212425]"
-              :class="`${getColor()} dark:bg-transparent`"
+              :class="`${getColor()} dark:bg-[#1D1D1D]`"
             >
             <div class="overflow-hidden rounded-lg">
               <a :href="blog.link" target="_blank">
