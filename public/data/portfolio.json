@@ -1,5 +1,25 @@
 [
   {
+    "name": "Niagahoster",
+    "url": "https://niagahoster.co.id",
+    "type": "Laravel",
+    "project": "Web Application",
+    "framework": "Native PHP, Laravel, VueJS",
+    "images": [
+      "/images/portfolio/niagahoster/1.jpeg"
+    ],
+    "description" : [
+      "Develop Responsive Web Profiles",
+      "Add Features on Niagahoster",
+      "Fix Bugs in Niagahoster",
+      "Develop Niagahoster Partner Projects",
+      "Develop Rest Api",
+      "Connect The System with Third Parties",
+      "Connect The Niagahoster System With The Hostinger System",
+      "Fix Bugs in Hostinger"
+    ]
+  },
+  {
     "name": "Ratson Inventory",
     "url": "https://inventory.ratson.com",
     "type": "Laravel",

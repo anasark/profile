@@ -20,12 +20,19 @@
           <div class="overflow-y-scroll max-h-[80vh] w-full no-scrollbar">
             <IconClose @click="closeModal" />
             <h2
+              v-if="name == 'Niagahoster'"
+              class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold"
+            >
+              Niagahoster
+            </h2>
+            <h2
+              v-else
               class="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold"
             >
               {{ project_name }} Project
             </h2>
             <div class="grid grid-cols-1 my-6">
-              <div class="space-y-2">
+              <div class="space-y-2" v-if="name != 'Niagahoster'">
                 <p
                 :class="{'small-font': longText}"
                   class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg"
@@ -76,12 +83,6 @@
                 </p>
               </div>
             </div>
-            <p
-              v-for="desc in description"
-              class="dark:text-white text-2line font-normal text-[15px] sm:text-sm hidden"
-            >
-              {{ desc }}
-            </p>
             <img
               v-for="img in images"
               alt="blog details image"
@@ -93,6 +94,14 @@
               loading="lazy"
               style="color: transparent"
             />
+            <div v-if="name == 'Niagahoster'" class="mt-5">
+              <p
+                v-for="desc in description"
+                class="dark:text-white text-2line font-normal text-[15px] sm:text-sm mt-3"
+              >
+                <span class="ml-4">- {{ desc }}</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>

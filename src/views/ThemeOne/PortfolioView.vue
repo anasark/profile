@@ -9,7 +9,7 @@
       <div class="lg:py-12">
         <h2 class="after-effect after:left-48 mt-12 lg:mt-0">Portfolio</h2>
         <ul
-          class="mt-[40px] flex w-full justify-start md:justify-end flex-wrap font-medium pb-12"
+          class="mt-[40px] flex w-full justify-start md:justify-end flex-wrap font-medium pb-12 hidden"
           v-if="getCategory"
         >
           <li :class="{ 'text-[#FA5252]': filtereKey === null }" class="mr-4 md:mx-4" @click="filterPorto()">All</li>
@@ -21,7 +21,7 @@
               {{  cat  }}
           </li>
         </ul>
-        <div class="my-masonry-grid">
+        <div class="my-masonry-grid mt-8">
           <div class="my-masonry-grid_column hidden lg:block">
             <div
               v-for="porto in portoLeft"
