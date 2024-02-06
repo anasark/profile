@@ -38,26 +38,24 @@
                   class="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px] sm:text-lg"
                 >
                   <IconName />
-                  Name :&nbsp;<span class="font-medium">{{ name }}</span>
+                  <span class="font-medium">Name :</span>&nbsp;{{ name }}
                 </p>
                 <p
                 :class="{'small-font': longText}"
                   class="dark:text-white flex items-center text-[15px] sm:text-lg"
                 >
                   <IconProject />
-                  Project :&nbsp;
-                  <span class="font-medium"> {{ project }}</span>
+                  <span class="font-medium">Project :</span>&nbsp; {{ project }}
                 </p>
                 <p
                 :class="{'small-font': longText}"
                   class="dark:text-white flex items-center text-[15px] sm:text-lg"
                 >
                   <IconFramework />
-                  Framework :&nbsp;<span class="font-medium">{{
-                    framework
-                  }}</span>
+                  <span class="font-medium">Framework :</span>&nbsp;{{ framework }}
                 </p>
               </div>
+              <!-- hidden -->
               <div class="space-y-2 hidden">
                 <p
                 :class="{'small-font': longText}"
@@ -82,6 +80,16 @@
                   >
                 </p>
               </div>
+              <!-- end hidden -->
+            </div>
+            <div class="my-8" v-if="description && name != 'Niagahoster'">
+              <p class="mt-4 font-medium">Descriptions:</p>
+              <p
+                v-for="desc in description"
+                class="dark:text-white text-2line font-normal text-[15px] sm:text-sm mt-2"
+              >
+                <span class="ml-4">{{ desc }}</span>
+              </p>
             </div>
             <img
               v-for="img in images"
@@ -95,11 +103,12 @@
               style="color: transparent"
             />
             <div v-if="name == 'Niagahoster'" class="mt-5">
+              <p class="mt-4 font-medium">Descriptions:</p>
               <p
                 v-for="desc in description"
                 class="dark:text-white text-2line font-normal text-[15px] sm:text-sm mt-3"
               >
-                <span class="ml-4">- {{ desc }}</span>
+                <span class="ml-4">{{ desc }}</span>
               </p>
             </div>
           </div>

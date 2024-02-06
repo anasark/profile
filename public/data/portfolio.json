@@ -9,59 +9,35 @@
       "/images/portfolio/niagahoster/1.jpeg"
     ],
     "description" : [
-      "Develop Responsive Web Profiles",
-      "Add Features on Niagahoster",
-      "Fix Bugs in Niagahoster",
-      "Develop Niagahoster Partner Projects",
-      "Develop Rest Api",
-      "Connect The System with Third Parties",
-      "Connect The Niagahoster System With The Hostinger System",
-      "Fix Bugs in Hostinger"
+      "- Develop Responsive Web Profiles",
+      "- Add Features on Niagahoster",
+      "- Fix Bugs in Niagahoster",
+      "- Develop Niagahoster Partner Projects",
+      "- Develop Rest Api",
+      "- Connect The System with Third Parties",
+      "- Connect The Niagahoster System With The Hostinger System",
+      "- Fix Bugs in Hostinger"
     ]
   },
   {
-    "name": "Ratson Inventory",
-    "url": "https://inventory.ratson.com",
-    "type": "Laravel",
+    "name": "E-Ujian",
+    "url": "https://e-juian.com",
+    "type": "CodeIgniter",
     "project": "Web Application",
-    "framework": "Laravel, Blade",
+    "framework": "CodeIgniter",
     "images": [
-      "/images/portfolio/ratson/1.jpeg",
-      "/images/portfolio/ratson/2.jpeg"
+      "/images/portfolio/eujian/1.png",
+      "/images/portfolio/eujian/2.png"
     ],
     "description" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-    ]
-  },
-  {
-    "name": "Point.RED",
-    "url": "https://point.red/",
-    "type": "Laravel",
-    "project": "Web Application",
-    "framework": "Laravel, VueJS",
-    "images": [
-      "/images/portfolio/point/1.jpeg",
-      "/images/portfolio/point/2.jpeg"
-    ],
-    "description" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-    ]
-  },
-  {
-    "name": "Super Caderization",
-    "url": "https://supercaderization.com/",
-    "type": "Laravel",
-    "project": "Web Application",
-    "framework": "Laravel, Livewire",
-    "images": [
-      "/images/portfolio/supercaderization/1.png",
-      "/images/portfolio/supercaderization/2.png"
-    ],
-    "description" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      "- Develop public bank soal (other schools can see the quiz and clone)",
+      "- Added CPNS types for exams",
+      "- Develop dynamic backgrounds for each school",
+      "- Implement Redis for exams",
+      "- Improve data reports",
+      "- Integrate with e-absensi",
+      "",
+      "This system use CodeIgniter"
     ]
   },
   {
@@ -75,8 +51,60 @@
       "/images/portfolio/eabsensi/2.png"
     ],
     "description" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      "Develop a website application for student attendance using Laravel and integrate with e-ujian.id."
+    ]
+  },
+  {
+    "name": "Point.RED",
+    "url": "https://point.red/",
+    "type": "Laravel",
+    "project": "Web Application",
+    "framework": "Laravel, VueJS",
+    "images": [
+      "/images/portfolio/point/1.jpeg",
+      "/images/portfolio/point/2.jpeg"
+    ],
+    "description" : [
+      "- Added delivery note features (create, show, edit, approval, export, delete, email, print, history)",
+      "- Improve filter sales visitation",
+      "- Create API Documentation",
+      "- Write Unit Test",
+      "",
+      "This system is microservices, front end use Vue.Js and backend use Laravel and Node.Js."
+    ]
+  },
+  {
+    "name": "Ratson Inventory",
+    "url": "https://inventory.ratson.com",
+    "type": "Laravel",
+    "project": "Web Application",
+    "framework": "Laravel, Blade",
+    "images": [
+      "/images/portfolio/ratson/1.jpeg",
+      "/images/portfolio/ratson/2.jpeg"
+    ],
+    "description" : [
+      "Develop a master product feature",
+      "Develop a purchase order feature",
+      "Develop a inventory feature for stock",
+      "Develop a report",
+      "Improve user with 3 roles (owner, admin, staf)",
+      "",
+      "This system use Laravel."
+    ]
+  },
+  {
+    "name": "Super Caderization",
+    "url": "https://supercaderization.com/",
+    "type": "Laravel",
+    "project": "Web Application",
+    "framework": "Laravel, Livewire",
+    "images": [
+      "/images/portfolio/supercaderization/1.png",
+      "/images/portfolio/supercaderization/2.png"
+    ],
+    "description" : [
+      "Develop a simple job portal web application systems for recruiters and job seekers."
     ]
   },
   {
@@ -88,55 +116,48 @@
     "images": [
       "/images/portfolio/vhs/1.jpeg",
       "/images/portfolio/vhs/2.jpeg"
-    ],
-    "description" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
     ]
   },
   {
     "name": "UPT Pengembangan Benih Hortikultura",
     "url": "http://pbh.pertanian.jatimprov.go.id/",
     "type": "WordPress",
-    "project": "Web Profile",
+    "project": "Company Profile",
     "framework": "WordPress",
     "images": [
       "/images/portfolio/upt-pbh/1.jpeg",
       "/images/portfolio/upt-pbh/2.jpeg"
     ],
     "description" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      "Develop a company profile using WordPress."
     ]
   },
   {
     "name": "Sanko",
     "url": "https://isolasi.co.id/",
     "type": "WordPress",
-    "project": "Web Profile",
+    "project": "Company Profile",
     "framework": "WordPress",
     "images": [
       "/images/portfolio/sanko/1.jpeg",
       "/images/portfolio/sanko/2.jpeg"
     ],
     "description" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      "Develop a company profile using WordPress."
     ]
   },
   {
     "name": "Toko Rohani",
     "url": "https://jualsouvenirkatolik.com/",
     "type": "WordPress",
-    "project": "Web Profile",
+    "project": "Online Store",
     "framework": "WordPress",
     "images": [
       "/images/portfolio/souvenir/1.jpeg",
       "/images/portfolio/souvenir/2.jpeg"
     ],
     "description" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      "Develop a simple online store using WordPress and WooCommerce plugins."
     ]
   }
 ]
