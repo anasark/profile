@@ -84,11 +84,11 @@
       "/images/portfolio/ratson/2.jpeg"
     ],
     "description" : [
-      "Develop a master product feature",
-      "Develop a purchase order feature",
-      "Develop a inventory feature for stock",
-      "Develop a report",
-      "Improve user with 3 roles (owner, admin, staf)",
+      "- Develop a master product feature",
+      "- Develop a purchase order feature",
+      "- Develop a inventory feature for stock",
+      "- Develop a report",
+      "- Improve user with 3 roles (owner, admin, staff)",
       "",
       "This system use Laravel."
     ]
