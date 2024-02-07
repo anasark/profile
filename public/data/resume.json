@@ -2,28 +2,54 @@
   "education": [
     {
       "date": "2013 - 2018",
-      "school": "UIN Maulana Malik Ibrahim",
-      "location": "Malang, Jawa Timur"
-    },
-    {
-      "date": "2010 - 2013",
-      "school": "MAN 1 Lamongan",
-      "location": "Lamongan, Jawa Timur"
+      "level": "Bachelor’s Degree in Computer Science ",
+      "school": "Maulana Malik Ibrahim State Islamic University",
+      "location": "Malang, Indonesia"
     }
   ],
   "experience": [
     {
-      "date": "2019 - 2023",
+      "date": "Mar 2019 - Aug 2023",
       "company": "Niagahoster",
-      "position": "Full Stack Developer"
+      "position": "Full Stack Developer",
+      "location": "Yogyakarta, Indonesia",
+      "description": [
+        "Write clean code and functions and ensure security",
+        "Collaborate with other teams to develop new features",
+        "Create Rest APIs and integrate third parties",
+        "Test, maintenance, troubleshoot and debug issues",
+        "Migration System"
+      ]
     },
     {
-      "date": "2018 - 2019",
+      "date": "Feb 2018 - Jan 2019",
       "company": "PT. Spora Optima Global",
-      "position": "Web Developer"
+      "position": "Web Developer",
+      "location": "Malang, Indonesia",
+      "description": [
+        "Design and develop websites",
+        "Maintenance and optimization",
+        "Troubleshoot and fix bugs"
+      ]
+    },
+    {
+      "date": "Dec 2015 - Jan 2016",
+      "company": "PT. PLN (Persero)",
+      "position": "Web Developer (Internship)",
+      "location": "Malang, Indonesia",
+      "description": [
+        "Develop new features",
+        "Fix bug issues"
+      ]
     }
   ],
   "skill": ["PHP", "Javascript", "SQL", "Python", "CSS", "HTML"],
+  "skills": {
+    "Programming Language": "PHP, Javascript, Typescript, HTML, CSS",
+    "Frameworks": "Laravel, CodeIgniter, Vue.Js, jQuery, Bootstrap, Tailwind",
+    "Database": "MySql, MariaDb, Redis"
+
+  },
   "knowledge": [
     "Laravel",
     "PHPUnit",
