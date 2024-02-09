@@ -55,6 +55,24 @@
     ]
   },
   {
+    "name": "Morclinic",
+    "url": "https://client.morclinic.id.com",
+    "type": "Laravel",
+    "project": "Web Application",
+    "framework": "Laravel, VueJS",
+    "images": [
+      "/images/portfolio/morclinic/1.png",
+      "/images/portfolio/morclinic/2.png"
+    ],
+    "description" : [
+      "- Develop a referral feature in backend",
+      "- Develop a referral feature in frontend",
+      "- Create API Documentation",
+      "",
+      "This system use Laravel and Vue.Js"
+    ]
+  },
+  {
     "name": "Point.RED",
     "url": "https://point.red/",
     "type": "Laravel",
