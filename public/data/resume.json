@@ -9,6 +9,21 @@
   ],
   "experience": [
     {
+      "date": "Jun 2024 - Now",
+      "company": "IVOJI",
+      "position": "Full Stack Developer",
+      "location": "Jakarta, Indonesia",
+      "description": [
+        "Develop and maintain web and mobile applications",
+        "Develop and manage servers, databases",
+        "Test and optimize applications for maximum performance",
+        "Implement and manage APIs and web services.",
+        "Write clean, efficient, and well-documented code.",
+        "Troubleshoot and debug applications to ensure optimal functionality.",
+        "Deploy and manage applications in production environments."
+      ]
+    },
+    {
       "date": "Mar 2019 - Aug 2023",
       "company": "Niagahoster",
       "position": "Full Stack Developer",
