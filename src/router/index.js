@@ -20,6 +20,11 @@ const router = createRouter({
       component: () => import('@/views/ThemeOne/PortfolioView.vue')
     },
     {
+      path: '/blogs',
+      name: 'blogs',
+      component: () => import('@/views/ThemeOne/BlogView.vue')
+    },
+    {
       path: '/pdf',
       name: 'PDF',
       component: () => import('@/views/ThemeOne/ResumePDF.vue')
