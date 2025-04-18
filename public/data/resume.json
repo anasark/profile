@@ -9,7 +9,21 @@
   ],
   "experience": [
     {
-      "date": "Jun 2024 - Now",
+      "date": "Sept 2024 - Now",
+      "company": "Skyshi (Assigned to projects for Flip.id)",
+      "position": "Full Stack Developer",
+      "location": "Jakarta, Indonesia",
+      "description": [
+        "Design, develop, and maintain features in backend applications.",
+        "Conduct testing and performance optimization to ensure seamless application functionality.",
+        "Implement and oversee APIs and web services for integration.",
+        "Write clean, efficient, and well-documented code adhering to industry standards.",
+        "Diagnose and resolve application issues to maintain optimal performance.",
+        "Stay informed on the latest technology trends and software development best practices."
+      ]
+    },
+    {
+      "date": "Jun 2024 - Sept 2024",
       "company": "IVOJI",
       "position": "Full Stack Developer",
       "location": "Jakarta, Indonesia",

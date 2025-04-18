@@ -40,15 +40,15 @@
 
   <RouterLink
     @click="clickHandle"
-    to="/blogs"
+    to="/pdf"
     class="cursor-pointer transition-all duration-300 ease-in-out font-poppins text-gray-lite font-medium flex text-xtiny items-center"
     :class="{
       [mobile_menu_class]: is_mobile,
       [dekstop_menu_class]: !is_mobile,
     }"
   >
-    <IconBlog />
-    Blog
+    <IconPdf />
+    PDF
   </RouterLink>
 </template>
 
@@ -56,7 +56,7 @@
 import IconHome from "./icons/menu/IconHome.vue";
 import IconResume from "./icons/menu/IconResume.vue";
 import IconPortfolio from "./icons/menu/IconPortfolio.vue";
-import IconBlog from "./icons/menu/IconBlog.vue";
+import IconPdf from "./icons/menu/IconPdf.vue";
 
 export default {
   name: "Menu",
@@ -70,7 +70,7 @@ export default {
         "pl-4 py-2.5 md:px-4 xl:px-5 dark:text-white dark:hover:text-[#FA5252] hover:text-[#FA5252] is-mobile",
     };
   },
-  components: { IconResume, IconHome, IconPortfolio, IconBlog },
+  components: { IconResume, IconHome, IconPortfolio, IconPdf },
   methods: {
     clickHandle() {
       if (this.is_mobile) {
